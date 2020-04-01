@@ -1,4 +1,7 @@
-﻿namespace Simple1_3D
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace Simple1_3D
 {
     class GameObject
     {

@@ -93,9 +93,9 @@ namespace Simple1_3D
             // 텍스쳐를 그리기 위해 SpriteBatch를 생성한다.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            audioEngine = new AudioEngine("Content\\Audio\\TestAudio.xgs");
-            waveBank = new WaveBank(audioEngine, "Content\\Audio\\Wave Bank.xwb");
-            soundBank = new SoundBank(audioEngine, "Content\\Audio\\Sound Bank.xsb");
+            //audioEngine = new AudioEngine("Content\\Audio\\TestAudio.xgs");
+            //waveBank = new WaveBank(audioEngine, "Content\\Audio\\Wave Bank.xwb");
+            //soundBank = new SoundBank(audioEngine, "Content\\Audio\\Sound Bank.xsb");
 
             //카메라가 바라보는 시점을 표현하는 행렬
             cameraViewMatrix = Matrix.CreateLookAt(
@@ -112,8 +112,7 @@ namespace Simple1_3D
 
             //생성한 GameObject 클래스 개체의 속성값 초기화
             //지형 개체
-            terrain.model = Content.Load<Model>(
-                "Models\\terrain");
+            terrain.model  = Content.Load<Model>("Models\\terrain");
 
             //미사일 발사대 개체 이미지 적재
             missileLauncherBase.model = Content.Load<Model>(
@@ -238,7 +237,7 @@ namespace Simple1_3D
                 //만약 미사일의 수명이 살아 있다면
                 if (!missile.alive)
                 {
-                    soundBank.PlayCue("missilelaunch");
+                    //soundBank.PlayCue("missilelaunch");
 
                     //미사일의 속도와 방향을 결정
                     missile.velocity = GetMissileMuzzleVelocity();

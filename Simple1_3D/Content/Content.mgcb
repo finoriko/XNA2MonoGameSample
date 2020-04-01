@@ -13,23 +13,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin Audio/TestAudio.xap
-/importer:
-/processor:
-/build:Audio/TestAudio.xap
-
-#begin Audio/Waves/explosion.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Audio/Waves/explosion.wav
-
-#begin Audio/Waves/missilelaunch.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Audio/Waves/missilelaunch.wav
-
 #begin Models/enemy.fbx
 /importer:FbxImporter
 /processor:ModelProcessor
@@ -48,30 +31,6 @@
 /processorParam:SwapWindingOrder=False
 /processorParam:TextureFormat=Compressed
 /build:Models/enemy.fbx
-
-#begin Models/enemy.tga
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Models/enemy.tga
-
-#begin Models/launcher.tga
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Models/launcher.tga
 
 #begin Models/launcher_base.fbx
 /importer:FbxImporter
@@ -130,30 +89,6 @@
 /processorParam:TextureFormat=Compressed
 /build:Models/missile.fbx
 
-#begin Models/missile.tga
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Models/missile.tga
-
-#begin Models/sunset.tga
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Models/sunset.tga
-
 #begin Models/terrain.fbx
 /importer:FbxImporter
 /processor:ModelProcessor
@@ -173,15 +108,15 @@
 /processorParam:TextureFormat=Compressed
 /build:Models/terrain.fbx
 
-#begin Models/terrain.tga
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Models/terrain.tga
+#begin Waves/explosion.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Waves/explosion.wav
+
+#begin Waves/missilelaunch.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Waves/missilelaunch.wav
 
